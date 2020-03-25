@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,29 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
+<body>
+  <h1> Restrant app </h1>
+  <form>
+    <fieldset>
+      <label id="q1">What do you want to order ? </label>
+      <br>
+      <select id="select">
+        <option value="1">burger</option>
+
+        <option value="2">pizza</option>
+        <option value="3">salad</option>
+
+        <option value="4">pepsie</option>
+      </select>
+      <label>quntity</label>
+      <br>
+      <input type="number" placeholder="how many item">
+      <br>
+      <input type="submit" id="write">
+    </fieldset>
+  </form>
   <script src="js/app.js"></script>
 </body>
+
 </html>

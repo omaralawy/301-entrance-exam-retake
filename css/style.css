@@ -1,0 +1,20 @@
+h1 {
+    font-size: 30px;
+    background-color: red;
+    text-align: center;
+    padding: 26px;
+}
+
+
+/* label {
+    margin-left: 158px;
+    font-size: 23px;
+} */
+label#q1 {
+    margin-left: 123px;
+    margin-bottom: 56px;
+}
+select#select {
+    width: 142px;
+    margin-left: 121px;
+}
